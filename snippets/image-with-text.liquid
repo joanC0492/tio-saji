@@ -64,12 +64,7 @@
   endunless
 -%}
 
-{%- render 'shape-defs',
-  shape: image_shape,
-  shape_id: section_id,
-  index: index,
-  blob_type: blob_type
--%}
+{%- render 'shape-defs', shape: image_shape, shape_id: section_id, index: index, blob_type: blob_type -%}
 
 <div class="element-container relative z-10 mx-auto max-w-site px-section">
   <div class="{% if display_on_card %}card{% endif %}">
@@ -105,11 +100,23 @@
         </div>
         <div class="flex items-center {{ text_width_desktop }}">
           <div class="{{ text_alignment }} w-full">
-            {% if title != '' %}
-              <h2 class="element-title inline-heading-rte font-heading  {{ heading_size }} heading-style {{ settings.heading_drop_shadow_style }} break-words">
-                {{ title }}
-              </h2>
+            {% comment %} JCC {% endcomment %}
+            {% if title_html != blank %}
+              {{ title_html }}
+            {% else %}
+              {% if title != '' %}
+                <h2 class="element-title inline-heading-rte font-heading  {{ heading_size }} heading-style {{ settings.heading_drop_shadow_style }} break-words">
+                  {{ title }}
+                </h2>
+              {% endif %}
             {% endif %}
+            {% comment %}
+              {% if title != '' %}
+                <h2 class="element-title inline-heading-rte font-heading  {{ heading_size }} heading-style {{ settings.heading_drop_shadow_style }} break-words">
+                  {{ title }}
+                </h2>
+              {% endif %}
+            {% endcomment %}
 
             <div class="element-richtext rte mt-5 max-w-2xl {% if text_alignment contains 'center' %}mx-auto{% elsif text_alignment contains 'right' %}ml-auto{% endif %}">
               {{ richtext }}

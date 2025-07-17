@@ -1,5 +1,5 @@
 @mixin beneficios-estilos {
-  background-color: rgba(var(--color-crema-rgb), 0.2);
+  // background-color: rgba(var(--color-crema-rgb), 0.2);
 
   .icon-list-content {
     max-width: 1440px;
@@ -33,6 +33,8 @@
   .newsletter-input {
     border-color: #574a50;
     box-shadow: rgb(87, 74, 80) 0px 0px 0px 2px inset;
+    padding-top: 1.15rem;
+    padding-bottom: 1.15rem;
     &::placeholder {
       color: var(--color-marron-2);
       opacity: 0.3;
@@ -141,6 +143,17 @@
       background: var(--color-crema);
     }
 
+    .element-title {
+      > span {
+        font-size: 40px;
+        display: block;
+        @media (max-width: 1023px) {
+          font-size: var(--feature-heading-size);
+          display: inline;
+        }
+      }
+    }
+
     //
     @media (max-width: 767px) {
       .element-title {
@@ -153,6 +166,7 @@
   }
 
   .home-beneficios {
+    background-color: rgba(var(--color-crema-rgb), 0.2);
     @include beneficios-estilos();
   }
 
@@ -332,6 +346,11 @@
     }
     .icon-list-title {
       color: var(--color-verde);
+      + .section-content-top-margin {
+        @media (min-width: 1023px) {
+          margin-top: 4.5rem;
+        }
+      }
     }
   }
 
@@ -354,11 +373,15 @@
       }
     }
     .testimonial-desc {
-      font-size: 24px;
+      // font-size: 24px;
+      font-size: 21px;
       color: var(--color-marron-2);
       line-height: 1.25;
       //
       max-width: 400px;
+      //
+      font-family: var(--main-font-stack);
+      font-weight: 400;
       @media (max-width: 767px) {
         font-size: initial;
       }
@@ -379,6 +402,21 @@
     div:has(> .media-image-figure) {
       max-width: 120px !important;
     }
+    .splide__arrows {
+      > .controls {
+        margin-left: initial;
+        width: 100%;
+        > div {
+          justify-content: center;
+          gap: 1rem;
+        }
+      }
+    }
+    .splide.section-content-top-margin {
+      @media (min-width: 1024px) {
+        margin-top: 4rem;
+      }
+    }
   }
 
   .home-boletin {
@@ -389,6 +427,17 @@
 .page-nosotros {
   .nosotros-hero {
     @include page-hero();
+
+    .element-title {
+      > span {
+        font-size: 40px;
+        display: block;
+        @media (max-width: 1023px) {
+          font-size: var(--feature-heading-size);
+          display: inline;
+        }
+      }
+    }
   }
 
   .nosotros-mision {
@@ -457,6 +506,16 @@
 .page-proceso {
   .proceso-hero {
     @include page-hero();
+    .element-title {
+      > span {
+        font-size: 40px;
+        display: block;
+        @media (max-width: 1023px) {
+          font-size: var(--feature-heading-size);
+          display: inline;
+        }
+      }
+    }
   }
   .proceso-liofilizacion {
     .rich-text-title {

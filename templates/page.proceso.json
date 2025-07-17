@@ -74,6 +74,7 @@
       "name": "Nacimiento | Imagen con texto",
       "settings": {
         "custom_class": "nosotros-nacimiento",
+        "title_html": "",
         "display_on_card": false,
         "image": "shopify://shop_images/nosotros-section-1.webp",
         "crop": "",
@@ -126,6 +127,7 @@
       "name": "Hero | Imagen con texto",
       "settings": {
         "custom_class": "proceso-hero",
+        "title_html": "<h2 class=\"element-title inline-heading-rte font-heading  heading-feature heading-style none break-words\">\n                  <span>Liofilización: sabor 100%</span> natural para tus hijos\n                </h2>",
         "display_on_card": false,
         "image": "shopify://shop_images/proceso-hero.png",
         "crop": "",
@@ -345,6 +347,7 @@
       "name": "Naturaleza | Imagen con texto",
       "settings": {
         "custom_class": "proceso-naturaleza",
+        "title_html": "",
         "display_on_card": false,
         "image": "shopify://shop_images/proceso-secreto.png",
         "crop": "",

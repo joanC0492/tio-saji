@@ -145,6 +145,7 @@
       "name": "Hero",
       "settings": {
         "custom_class": "home-hero",
+        "title_html": "<h2 class=\"element-title inline-heading-rte font-heading  heading-feature heading-style none break-words\">\n                <span>El sabor de la naturaleza,</span> directo a su lonchera\n              </h2>",
         "display_on_card": false,
         "image": "shopify://shop_images/home-hero-main-bg-2x.webp",
         "crop": "",
