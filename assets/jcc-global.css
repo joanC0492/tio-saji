@@ -1,0 +1,70 @@
+:root {
+  --color-marron-1: #574a4f;
+  --color-marron-1-rgb: 87, 74, 79;
+
+  --color-marron-2: #5b3534;
+  --color-marron-2-rgb: 91, 53, 52;
+
+  --color-crema: #ffebcd;
+  --color-crema-rgb: 255, 235, 205;
+
+  --color-crema-2: #fff7eb;
+  --color-crema-2-rgb: 255, 247, 235;
+
+  --color-amarillo: #ef9c3b;
+  --color-amarillo-rgb: 239, 156, 59;
+
+  --color-verde: #86a33e;
+  --color-verde-rgb: 134, 163, 62;
+
+  --color-blanco: #ffffff;
+  --color-blanco-rgb: 255, 255, 255;
+
+  /* Gradiente lineal de Dg (de F89F20 a FFB951) */
+  --color-dg-start: #f89f20;
+  --color-dg-end: #ffb951;
+  --gradient-amarillo: linear-gradient(
+    90deg,
+    var(--color-dg-start) 0%,
+    var(--color-dg-end) 100%
+  );
+  /*  */
+  --gradient-marron: linear-gradient(90deg, #5b3534 0%, #644949 100%);
+}
+
+#headerContainer .header-menu-icons {
+  visibility: hidden;
+}
+#headerContainer .role-navigation a {
+  color: var(--color-marron-2);
+}
+#headerContainer .h1:has(> .site-header__logo-link) {
+  padding-block: 20px;
+}
+#headerContainer .theme-icon path[stroke] {
+  stroke: var(--color-verde);
+}
+[data-modal-label="Main menu"] {
+  ul li a {
+    color: var(--color-verde);
+  }
+}
+#modals-leftDrawer {
+  > .bg-scheme-text\/75 {
+    background-color: rgba(var(--color-verde-rgb), 0.75);
+  }
+}
+
+/* Botones */
+.rich-text-btn > span,
+.push-btn > span {
+  box-shadow: none !important;
+}
+.rich-text-btn:hover > span,
+.push-btn:hover > span {
+}
+
+/* Footer */
+.footer-main {
+  background-color: var(--color-verde);
+}

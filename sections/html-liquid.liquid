@@ -1,0 +1,30 @@
+
+<div class="{{ section.settings.custom_class }}">
+{{ section.settings.html_content }}
+</div>
+
+{% schema %}
+  {
+    "name": "Bloque HTML limpio",
+    "tag": "section",
+    "class": "shopify-section--custom-html-only",
+    "settings": [
+      {
+        "type": "text",
+        "id": "custom_class",
+        "label": "Clase CSS personalizada"
+      },
+      {
+        "type": "liquid",
+        "id": "html_content",
+        "label": "Código HTML o Liquid",
+        "info": "Insertá aquí cualquier HTML o código Liquid. Se renderiza tal cual, sin envoltorios ni clases."
+      }      
+    ],
+    "presets": [
+      {
+        "name": "HTML limpio"
+      }
+    ]
+  }
+{% endschema %}

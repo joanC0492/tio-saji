@@ -1,0 +1,391 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "max_width": "medium",
+        "display_on_card": true,
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "image_with_text_overlay_eBkzLN": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "name": "t:sections.image_with_text_overlay.name",
+      "settings": {
+        "custom_class": "",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": true,
+        "style": "full",
+        "height": "natural",
+        "place_content": "place-content-center-center",
+        "text_align": "text-center",
+        "title": "Image with text overlay",
+        "heading_size": "heading-standard",
+        "richtext": "",
+        "cta_url": "",
+        "cta_text": "Shop Now",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "image_with_text_kgeTpi": {
+      "type": "image-with-text",
+      "blocks": {
+        "shape_divider_WKh8cP": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape_divider_DXEqrw": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "tilt-1-shape_1440x101",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_WKh8cP",
+        "shape_divider_DXEqrw"
+      ],
+      "disabled": true,
+      "name": "Nacimiento | Imagen con texto",
+      "settings": {
+        "custom_class": "nosotros-nacimiento",
+        "display_on_card": false,
+        "image": "shopify://shop_images/nosotros-section-1.webp",
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "left",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "TIO SAJI nació con una pregunta simple: ¿por qué lo saludable no puede ser también delicioso?",
+        "heading_size": "heading-feature",
+        "richtext": "<p>Inspirados en la sabiduría de la Amazonía y la tecnología alimentaria más avanzada, decidimos crear snacks 100% fruta, sin azúcar añadida ni conservantes, usando liofilización para preservar todo lo bueno de la naturaleza.  Hoy, somos un equipo de nutricionistas, ingenieros de alimentos, madres, padres y soñadores que creen en un futuro mejor desde el primer bocado.</p>",
+        "text_alignment": "text-left",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme2",
+        "use_gradient_background": false
+      }
+    },
+    "image_with_text_WniAcx": {
+      "type": "image-with-text",
+      "blocks": {
+        "shape_divider_fQ9gWe": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape_divider_VcYWAw": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_fQ9gWe",
+        "shape_divider_VcYWAw"
+      ],
+      "name": "Hero | Imagen con texto",
+      "settings": {
+        "custom_class": "proceso-hero",
+        "display_on_card": false,
+        "image": "shopify://shop_images/proceso-hero.png",
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Liofilización: sabor 100% natural para tus hijos",
+        "heading_size": "heading-feature",
+        "richtext": "<p>Desde la Amazonía del Perú, creamos opciones naturales, innovadoras y sabrosas para acompañar la alimentación infantil desde sus primeros pasos.</p>",
+        "text_alignment": "text-left",
+        "button_link": "",
+        "button_label": "",
+        "color_scheme": "scheme2",
+        "use_gradient_background": false
+      }
+    },
+    "rich_text_7JNpRg": {
+      "type": "rich-text",
+      "name": "Liofilización  | Texto rico",
+      "settings": {
+        "custom_class": "proceso-liofilizacion",
+        "title": "¿Qué es la liofilización y por qué es tan especial?",
+        "heading_size": "heading-standard",
+        "rich_text": "<p>En Tío Saji, nos preocupamos por ofrecer lo mejor a tus pequeños, y por eso utilizamos un proceso innovador llamado liofilización.</p><p>Este método nos permite conservar frutas amazónicas en su punto óptimo, capturando su sabor, aroma, textura y nutrientes… ¡para que los niños las disfruten en cualquier momento y lugar!</p>",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-1/2",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "text_columns_with_images_LcQnQR": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "shape_divider_CNWGch": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape_divider_Uc9BYp": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "tilt-1-shape_1440x101",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "column_XfhnKd": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "title": "Congelación rápida",
+            "text": "<p>Congelamos las frutas a muy bajas temperaturas para conservar su estructura y valor nutricional.</p>",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "column_k7iEGM": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "title": "Vacío y sublimación",
+            "text": "<p>Las frutas se colocan en una cámara al vacío donde, sin calor, el agua pasa de hielo a vapor directamente (proceso de sublimación).</p>",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "column_GAb7rz": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "title": "Resultado final: Fruta liofilizada",
+            "text": "<p>Queda una fruta crujiente, ligera y porosa, que mantiene casi el 100% de sus propiedades naturales: sabor, aroma, color y nutrientes.</p>",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_CNWGch",
+        "shape_divider_Uc9BYp",
+        "column_XfhnKd",
+        "column_k7iEGM",
+        "column_GAb7rz"
+      ],
+      "name": "Proceso | Columnas de texto con imágenes",
+      "settings": {
+        "custom_class": "proceso-proceso",
+        "ocultar_imagen": true,
+        "display_on_card": true,
+        "slideshow_on_mobile": false,
+        "title": "¿Cómo funciona este mágico proceso?",
+        "crop": "",
+        "image_shape": "default",
+        "show_index_on_blocks": false,
+        "index_shape": "star_1",
+        "color_scheme": "scheme2",
+        "use_gradient_background": false
+      }
+    },
+    "icon_list_DYjXJ9": {
+      "type": "icon-list",
+      "blocks": {
+        "icon_xgPXMz": {
+          "type": "icon",
+          "settings": {
+            "icon": "vegan",
+            "custom_image": "shopify://shop_images/beneficios-producto-liofilizado.svg",
+            "text": "Producto Liofilizado"
+          }
+        },
+        "icon_CJeyV6": {
+          "type": "icon",
+          "settings": {
+            "icon": "vegan",
+            "custom_image": "shopify://shop_images/beneficios-100-fruta.svg",
+            "text": "100% fruta"
+          }
+        },
+        "icon_NADdLC": {
+          "type": "icon",
+          "settings": {
+            "icon": "vegan",
+            "custom_image": "shopify://shop_images/beneficios-sin-azucar-anadida.svg",
+            "text": "Sin azúcar añadida"
+          }
+        },
+        "icon_affgmz": {
+          "type": "icon",
+          "settings": {
+            "icon": "vegan",
+            "custom_image": "shopify://shop_images/beneficios-sin-conservantes.svg",
+            "text": "Sin conservantes"
+          }
+        },
+        "icon_kch3XD": {
+          "type": "icon",
+          "settings": {
+            "icon": "vegan",
+            "custom_image": "shopify://shop_images/beneficios-aprobado-por-nutricionistas.svg",
+            "text": "Aprobado por nutricionistas"
+          }
+        }
+      },
+      "block_order": [
+        "icon_xgPXMz",
+        "icon_CJeyV6",
+        "icon_NADdLC",
+        "icon_affgmz",
+        "icon_kch3XD"
+      ],
+      "name": "Beneficios | Lista de iconos",
+      "settings": {
+        "custom_class": "proceso-beneficios",
+        "title": "",
+        "max_width": 120,
+        "text_style": "heading",
+        "uppercase_text": false,
+        "layout_on_mobile": "wrap",
+        "icon_alignment_on_desktop": "md:justify-between",
+        "icon_thickness": 2.4,
+        "background_color": "bg-transparent text-scheme-text",
+        "show_border": false,
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "image_with_text_PEwgV9": {
+      "type": "image-with-text",
+      "blocks": {
+        "shape_divider_MhacJy": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "tilt-1-shape_1440x101",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape_divider_debh9k": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_MhacJy",
+        "shape_divider_debh9k"
+      ],
+      "name": "Naturaleza | Imagen con texto",
+      "settings": {
+        "custom_class": "proceso-naturaleza",
+        "display_on_card": false,
+        "image": "shopify://shop_images/proceso-secreto.png",
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "¿Por qué es el secreto de Tío Saji?",
+        "heading_size": "heading-feature",
+        "richtext": "<ul><li>Sin azúcares añadidos, sin conservantes ni saborizantes. Solo fruta real en su estado más puro.</li><li>Cada snack es una explosión de sabor auténtico. Así demostramos que lo saludable también puede ser delicioso.</li><li>Ligeros, no requieren refrigeración y son ideales para la lonchera, el parque o el día a día.</li></ul>",
+        "text_alignment": "text-left",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme2",
+        "use_gradient_background": false
+      }
+    },
+    "newsletter_MW9dQU": {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.name",
+      "settings": {
+        "custom_class": "proceso-boletin",
+        "title": "Únete al club dos que saben lo que dan",
+        "richtext": "<p>Beneficios: recetas, promos, acceso anticipado a stock</p>",
+        "display_on_card": false,
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_eBkzLN",
+    "image_with_text_kgeTpi",
+    "image_with_text_WniAcx",
+    "rich_text_7JNpRg",
+    "text_columns_with_images_LcQnQR",
+    "icon_list_DYjXJ9",
+    "image_with_text_PEwgV9",
+    "newsletter_MW9dQU"
+  ]
+}

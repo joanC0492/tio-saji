@@ -1,0 +1,528 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "display_on_card": false,
+            "text_align": "text-left"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_on_card": false,
+            "show_on_sale_sticker": false,
+            "text_align": "text-left"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "display_on_card": false,
+            "truncate_description": true,
+            "text_align": "text-left"
+          }
+        },
+        "variant-picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "display_on_card": false,
+            "option_style": "buttons",
+            "full_width_buttons": true,
+            "hide_option_labels": true,
+            "enable_color_swatches": false
+          }
+        },
+        "buy-buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "display_on_card": false,
+            "show_price": true,
+            "enable_payment_button": true,
+            "show_pickup_availability": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "disabled": true,
+          "settings": {
+            "display_on_card": false,
+            "uppercase_heading": false,
+            "heading_1": "Ingredients",
+            "content_1": "<p>Celery, Chicken Meal, Rice Flour, Potato Starch, Glycerin, Calcium Carbonate, Natural Flavors, Mixed Tocopherols (Preservative).</p>",
+            "page_content_1": "",
+            "heading_2": "Shipping",
+            "content_2": "<p>Dispatches within 24-48 hours.</p>",
+            "page_content_2": "",
+            "heading_3": "Wholesale",
+            "content_3": "<p>We are interested in collaborating with boutique and independent pet food retailers. If that's you, get in touch!</p>",
+            "page_content_3": "",
+            "tab_style": "border",
+            "tab_color": "text"
+          }
+        },
+        "spacer": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "height": 7
+          }
+        },
+        "icon-row": {
+          "type": "icon_row",
+          "disabled": true,
+          "settings": {
+            "display_on_card": false,
+            "uppercase_text": false,
+            "icon_alignment": "justify-between",
+            "icon_thickness": 2,
+            "background_color": "bg-scheme-accent-1 text-scheme-accent-1-contrast",
+            "show_border": false,
+            "icon_size": "h-16 w-16",
+            "icon_1": "leaf",
+            "text_1": "All Natural",
+            "icon_2": "non_gmo",
+            "text_2": "Non-GMO",
+            "icon_3": "heart",
+            "text_3": "Allergy Safe",
+            "icon_4": "probiotic",
+            "text_4": "Gutproof!",
+            "icon_5": "no_additives",
+            "text_5": "No Extras"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "description",
+        "variant-picker",
+        "buy-buttons",
+        "tabs",
+        "spacer",
+        "icon-row"
+      ],
+      "settings": {
+        "custom_class": "product-details-producto",
+        "crop": "",
+        "image_shape": "default",
+        "desktop_media_width": "lg:col-span-6_lg:col-span-6",
+        "show_slideshow_arrows_on_desktop": false,
+        "enable_image_zoom": false,
+        "enable_video_looping": false,
+        "autoplay_videos_on_desktop": false,
+        "media_mobile_width": "w-full",
+        "thumbnails_position": "under",
+        "thumbnail_crop": "aspect-w-1 aspect-h-1",
+        "thumbnail_shape": "default",
+        "thumbnail_size": "standard",
+        "show_thumbnails_on_mobile": false,
+        "hide_media_shadow": false,
+        "color_scheme": "scheme1",
+        "use_gradient_background": false
+      }
+    },
+    "feature_text_with_image_fNQXGH": {
+      "type": "feature-text-with-image",
+      "name": "t:sections.feature_text_with_image.name",
+      "settings": {
+        "custom_class": "product-details-cinta",
+        "title": "",
+        "mobile_text_scale": 3,
+        "desktop_text_scale": 7,
+        "apply_effects": false,
+        "max_width_heading": "",
+        "button_link": "",
+        "button_label": "",
+        "image": "shopify://shop_images/cintillo-producto.webp",
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "disable_media_style": false,
+        "max_width_image_mobile": 100,
+        "image_offset_mobile": 0,
+        "max_width_image_desktop": 100,
+        "image_offset_desktop": 0,
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "custom_class": "product-details-recomendacion",
+        "display_on_card": false,
+        "enable_quick_buy": false,
+        "related_products_heading": "You may also like",
+        "max_products": "3",
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "",
+        "color_scheme": "scheme1",
+        "use_gradient_background": false
+      }
+    },
+    "feature-text": {
+      "type": "feature-text",
+      "blocks": {
+        "shape-divider-feature-text-0": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape-divider-feature-text-1": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape-divider-feature-text-0",
+        "shape-divider-feature-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "rich_text": "A natural and wholesome treat designed to keep your dog's teeth clean and strong while satisfying their chewing instincts. Each 200g pack is filled with delicious, all-natural goodness your dog will love.",
+        "mobile_text_scale": 2,
+        "desktop_text_scale": 8,
+        "display_on_card": false,
+        "apply_effects": false,
+        "content_width_desktop": "lg:w-full",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme4",
+        "use_gradient_background": false
+      }
+    },
+    "image-with-highlights": {
+      "type": "image-with-highlights",
+      "blocks": {
+        "highlight-0": {
+          "type": "highlight",
+          "settings": {
+            "title": "100% Natural Ingredients",
+            "text": "Our jerky treats are made with just one ingredient—real, premium meat, with no fillers or artificial additives.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight-1": {
+          "type": "highlight",
+          "settings": {
+            "title": "Sourced from Local Farms",
+            "text": "We partner with trusted local farmers who raise their livestock with care, ensuring the highest quality for your pet.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight-2": {
+          "type": "highlight",
+          "settings": {
+            "title": "Slow-Dried for Maximum Flavor:",
+            "text": "Our jerky is slow-dried to lock in natural flavors and nutrients, making every bite irresistibly tasty.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight-3": {
+          "type": "highlight",
+          "settings": {
+            "title": "Sustainably Produced",
+            "text": "We’re committed to sustainability, using eco-friendly packaging and minimizing waste throughout our production process.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight-4": {
+          "type": "highlight",
+          "settings": {
+            "title": "Grain-Free",
+            "text": "Perfect for dogs with sensitivities, our jerky treats are grain-free and hypoallergenic, so all pups can enjoy them safely.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight-5": {
+          "type": "highlight",
+          "settings": {
+            "title": "Packed with Protein",
+            "text": "Our jerky treats are a protein-rich snack that helps support strong muscles and overall vitality in your dog.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "sticker-image-with-highlights-0": {
+          "type": "sticker",
+          "settings": {
+            "width": 150,
+            "half_width_on_mobile": false,
+            "text": "Spoilers:<br>Only Good Stuff",
+            "shape": "wave_ribbon",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 88,
+            "vertical_position": 10,
+            "rotate": 26,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        }
+      },
+      "block_order": [
+        "highlight-0",
+        "highlight-1",
+        "highlight-2",
+        "highlight-3",
+        "highlight-4",
+        "highlight-5",
+        "sticker-image-with-highlights-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "What's in a Treat?",
+        "block_alignment_on_desktop": "justify-center",
+        "display_on_card": true,
+        "slideshow_on_mobile": true,
+        "slideshow_focus": "center",
+        "max_width": 840,
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "disable_media_style": false,
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "comparison-table": {
+      "type": "comparison-table",
+      "blocks": {
+        "row-0": {
+          "type": "row",
+          "settings": {
+            "title": "Discloses Ingredients",
+            "column_1_icon": "like",
+            "column_1_text": "",
+            "column_2_icon": "thumbs_down",
+            "column_2_text": "",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "row-1": {
+          "type": "row",
+          "settings": {
+            "title": "Sustainably Produced",
+            "column_1_icon": "like",
+            "column_1_text": "",
+            "column_2_icon": "thumbs_down",
+            "column_2_text": "",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "row-2": {
+          "type": "row",
+          "settings": {
+            "title": "No Artificial Additives or Fillers",
+            "column_1_icon": "like",
+            "column_1_text": "",
+            "column_2_icon": "thumbs_down",
+            "column_2_text": "",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "row-3": {
+          "type": "row",
+          "settings": {
+            "title": "Sustainable Practices",
+            "column_1_icon": "like",
+            "column_1_text": "",
+            "column_2_icon": "thumbs_down",
+            "column_2_text": "",
+            "column_3_icon": "",
+            "column_3_text": "",
+            "column_4_icon": "",
+            "column_4_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "row-0",
+        "row-1",
+        "row-2",
+        "row-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "How we compare",
+        "display_on_card": false,
+        "max_width": "max-w-2xl",
+        "highlighted_column": "1",
+        "highlighted_column_color": "accent-1",
+        "show_scroll_left_to_right_on_mobile": true,
+        "column_1_title": "Pats",
+        "column_2_title": "Evil Corporate Dog Food",
+        "enable_column_3": false,
+        "column_3_title": "Column 3",
+        "enable_column_4": false,
+        "column_4_title": "Column 4",
+        "icon_thickness": 2,
+        "background_color": "bg-scheme-text text-scheme-background",
+        "show_border": false,
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "question-0": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "What ingredients do you use in Pats products?",
+            "answer": "<p>We use only high-quality, natural ingredients in our products, with no artificial additives, fillers, or preservatives. Each recipe is carefully crafted to provide balanced nutrition for your dog.</p>"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Where do you source your meat?",
+            "answer": "<p>Our meat is sourced from trusted local farms that practice humane and sustainable farming methods. We prioritize quality and ethical sourcing to ensure your dog gets the best possible nutrition.</p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Are Pats products suitable for dogs with allergies or sensitivities?",
+            "answer": "<p>Yes! We offer a range of grain-free and hypoallergenic options to cater to dogs with specific dietary needs. Always check the ingredients list, and consult with your vet if you’re unsure.</p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "How do you ensure the freshness of your products?",
+            "answer": "<p>Our products are made in small batches and delivered promptly to ensure they arrive fresh. We also use eco-friendly, airtight packaging to maintain freshness for longer periods.</p>"
+          }
+        },
+        "question-4": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Do you offer treats or just meals?",
+            "answer": "<p>We offer a variety of both meals and treats, including our popular chicken jerky, which is a favorite among dogs of all sizes. Everything is designed to complement a balanced diet.</p>"
+          }
+        },
+        "question-5": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "How long does delivery take?",
+            "answer": "<p>Delivery times vary depending on your location, but we strive to get your order to you within 3-5 business days. You’ll receive tracking information once your order is on its way.</p>"
+          }
+        },
+        "question-6": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Can I find Pats products in stores, or is it online only?",
+            "answer": "<p>Currently, Pats products are available exclusively through our online store. This allows us to ensure the highest quality and freshness with every order.</p>"
+          }
+        },
+        "question-7": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "What if my dog doesn’t like the food?",
+            "answer": "<p>We’re confident your dog will love Pats, but if for any reason they don’t, please contact our customer service team. We’ll work with you to find a solution, including offering a refund or a product exchange.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question-0",
+        "question-1",
+        "question-2",
+        "question-3",
+        "question-4",
+        "question-5",
+        "question-6",
+        "question-7"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "display_on_card": true,
+        "heading_text_style": "heading",
+        "two_columns_desktop": true,
+        "title": "FAQ",
+        "richtext": "You asked, we answered!",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "feature_text_with_image_fNQXGH",
+    "related-products",
+    "feature-text",
+    "image-with-highlights",
+    "comparison-table",
+    "faq"
+  ]
+}

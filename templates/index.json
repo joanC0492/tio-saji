@@ -1,0 +1,1320 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "html_liquid_BTpwrP": {
+      "type": "html-liquid",
+      "name": "Cintillo",
+      "settings": {
+        "custom_class": "home-cintillo",
+        "html_content": "<div class=\"home-cintillo__content\">\n<img class=\"home-cintillo__img\" src=\"https://cdn.shopify.com/s/files/1/0598/8302/8614/files/icon-cintillo-top.svg?v=1752332955\"/>\n<span class=\"home-cintillo__txt\">Producto 100% natural</span>\n<img class=\"home-cintillo__img\" src=\"https://cdn.shopify.com/s/files/1/0598/8302/8614/files/icon-cintillo-top.svg?v=1752332955\"/>\n\n</div>"
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "shape-divider-image-with-text-0": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "background-shape": {
+          "type": "background_shape",
+          "settings": {
+            "shape": "blob",
+            "blob_type": 4,
+            "size": 125,
+            "opacity": 100,
+            "blur": 0,
+            "horizontal_position": 83,
+            "vertical_position": 51,
+            "rotate": 6,
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "accent-1"
+          }
+        },
+        "sticker-image-with-text-0": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "width": 300,
+            "half_width_on_mobile": true,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 62,
+            "vertical_position": 68,
+            "rotate": 0,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
+        "sticker-image-with-text-1": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "width": 150,
+            "half_width_on_mobile": false,
+            "text": "Approvedby Vets!",
+            "shape": "scalloped_circle_6",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 57,
+            "vertical_position": 32,
+            "rotate": 0,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 1,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
+          }
+        },
+        "sticker-image-with-text-2": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "width": 150,
+            "half_width_on_mobile": false,
+            "text": "ApprovedBy Vets!",
+            "shape": "scalloped_circle_6",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 81,
+            "vertical_position": 59,
+            "rotate": 10,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": false,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
+          }
+        },
+        "sticker-image-with-text-3": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "width": 180,
+            "half_width_on_mobile": false,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 19,
+            "vertical_position": 50,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": false,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        }
+      },
+      "block_order": [
+        "shape-divider-image-with-text-0",
+        "background-shape",
+        "sticker-image-with-text-0",
+        "sticker-image-with-text-1",
+        "sticker-image-with-text-2",
+        "sticker-image-with-text-3"
+      ],
+      "name": "Hero",
+      "settings": {
+        "custom_class": "home-hero",
+        "display_on_card": false,
+        "image": "shopify://shop_images/home-hero-main-bg-2x.webp",
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "El sabor de la naturaleza, directo a su lonchera",
+        "heading_size": "heading-feature",
+        "richtext": "<p>Snacks 100% fruta con superfoods de la Amazonía, sin azúcar añadida ni conservantes.</p>",
+        "text_alignment": "text-left",
+        "button_link": "shopify://pages/proceso",
+        "button_label": "Descubre cómo usarlo",
+        "color_scheme": "scheme3",
+        "use_gradient_background": false
+      }
+    },
+    "icon-list": {
+      "type": "icon-list",
+      "blocks": {
+        "icon-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "vegan",
+            "custom_image": "shopify://shop_images/beneficios-producto-liofilizado.svg",
+            "text": "Producto Liofilizado"
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "non_gmo",
+            "custom_image": "shopify://shop_images/beneficios-100-fruta.svg",
+            "text": "100% fruta"
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "heart",
+            "custom_image": "shopify://shop_images/beneficios-sin-azucar-anadida.svg",
+            "text": "Sin azúcar añadida"
+          }
+        },
+        "icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "probiotic",
+            "custom_image": "shopify://shop_images/beneficios-sin-conservantes.svg",
+            "text": "Sin conservantes"
+          }
+        },
+        "icon-4": {
+          "type": "icon",
+          "settings": {
+            "icon": "no_additives",
+            "custom_image": "shopify://shop_images/beneficios-aprobado-por-nutricionistas.svg",
+            "text": "Aprobado por nutricionistas"
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2",
+        "icon-3",
+        "icon-4"
+      ],
+      "name": "Beneficios",
+      "settings": {
+        "custom_class": "home-beneficios",
+        "title": "",
+        "max_width": 120,
+        "text_style": "heading",
+        "uppercase_text": false,
+        "layout_on_mobile": "wrap",
+        "icon_alignment_on_desktop": "md:justify-between",
+        "icon_thickness": 2.4,
+        "background_color": "bg-scheme-accent-1 text-scheme-accent-1-contrast",
+        "show_border": false,
+        "color_scheme": "scheme1",
+        "use_gradient_background": false
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "sticker-rich-text-0": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "width": 160,
+            "half_width_on_mobile": false,
+            "text": "Dogs before Humans!",
+            "shape": "star_3",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 88,
+            "vertical_position": 100,
+            "rotate": 0,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "constantly_rotate",
+            "enable_parallax": true,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-2 text-scheme-accent-2-contrast"
+          }
+        }
+      },
+      "block_order": [
+        "sticker-rich-text-0"
+      ],
+      "name": "Liofilización",
+      "settings": {
+        "custom_class": "home-liofilizacion",
+        "title": "Liofilización: nuestro proceso mágico",
+        "heading_size": "heading-standard",
+        "rich_text": "<p>¿Te imaginas snacks que conservan el 100% del sabor y los nutrientes de la fruta fresca, sin azúcares añadidos ni conservantes? ¡En Tío Saji lo hicimos posible para tus pequeños!</p>",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-1/2",
+        "button_link": "shopify://pages/proceso",
+        "button_label": "Conoce nuestro proceso",
+        "color_scheme": "scheme1",
+        "use_gradient_background": false
+      }
+    },
+    "collection-focus-carousel": {
+      "type": "collection-focus-carousel",
+      "blocks": {
+        "shape-divider-collection-focus-carousel-0": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape-divider-collection-focus-carousel-1": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape-divider-collection-focus-carousel-0",
+        "shape-divider-collection-focus-carousel-1"
+      ],
+      "name": "Nuestros Productos",
+      "settings": {
+        "custom_class": "home-productos",
+        "button_link": "shopify://collections/categoria-1",
+        "button_label": "Ver más",
+        "title": "Nuestros productos",
+        "subheading": "Ofrecemos opciones 100% fruta, liofilizadas, sin azúcar añadida ni conservantes. Hechos con superfoods amazónicos como açaí, cocona y coco, nuestros snacks están pensados para nutrir, sorprender y acompañar cada etapa del crecimiento de tu pequeño.",
+        "collection": "all",
+        "no_products": 3,
+        "enable_focused_quick_buy": false,
+        "focused_slide_source": "description",
+        "focused_slide_metafield": "",
+        "display_on_card": true,
+        "enlarge_active_slide": true,
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 30,
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "default",
+        "color_scheme": "scheme2",
+        "use_gradient_background": false
+      }
+    },
+    "blog_posts_AAGdhK": {
+      "type": "blog-posts",
+      "name": "Desayunos con Tío Saji",
+      "settings": {
+        "custom_class": "home-desayunos",
+        "button_link": "shopify://blogs/recetas",
+        "button_label": "Ver más recetas",
+        "number_of_blogs": 2,
+        "display_on_card": true,
+        "posts_per_row_desktop": 2,
+        "title": "Recetas para engreír y nutrir con Tío Saji",
+        "blog": "recetas",
+        "post_limit": 3,
+        "crop": "aspect-w-4 aspect-h-3",
+        "image_shape": "default",
+        "blog_show_author": false,
+        "blog_show_date": false,
+        "show_post_excerpt": true,
+        "show_view_all": true,
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "icon_list_NRaaVi": {
+      "type": "icon-list",
+      "blocks": {
+        "icon_jpwP9a": {
+          "type": "icon",
+          "settings": {
+            "icon": "vegan",
+            "custom_image": "shopify://shop_images/home-encuentranos-2x.webp",
+            "text": ""
+          }
+        },
+        "icon_p8HyJ8": {
+          "type": "icon",
+          "settings": {
+            "icon": "non_gmo",
+            "custom_image": "shopify://shop_images/home-encuentranos-2x.webp",
+            "text": ""
+          }
+        },
+        "icon_3xCzJb": {
+          "type": "icon",
+          "settings": {
+            "icon": "heart",
+            "custom_image": "shopify://shop_images/home-encuentranos-2x.webp",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_jpwP9a",
+        "icon_p8HyJ8",
+        "icon_3xCzJb"
+      ],
+      "name": "Encuéntranos",
+      "settings": {
+        "custom_class": "home-encuentranos",
+        "title": "Encuéntranos",
+        "max_width": 160,
+        "text_style": "heading",
+        "uppercase_text": false,
+        "layout_on_mobile": "wrap",
+        "icon_alignment_on_desktop": "md:justify-between",
+        "icon_thickness": 2.4,
+        "background_color": "bg-scheme-accent-1 text-scheme-accent-1-contrast",
+        "show_border": false,
+        "color_scheme": "scheme1",
+        "use_gradient_background": false
+      }
+    },
+    "featured_testimonials_6nUB6q": {
+      "type": "featured-testimonials",
+      "blocks": {
+        "shape_divider_kVbJf7": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "tilt-1-shape_1440x101",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape_divider_Grjmhz": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "tilt-1-shape_1440x101",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "testimonial_rAdkL8": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/foto-perfil-example.webp",
+            "rating": "none",
+            "quote": "Tio Sají le trajo lo mejor de los superfoods a las mamás y papás que buscan una alimentación sana, sin preservantes y súper nutritiva para los más pequeños.",
+            "source": "Dra. Valeria Ríos Mendoza",
+            "subtitle": "Médico Nutricionista"
+          }
+        },
+        "testimonial_tje4CC": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/foto-perfil-example.webp",
+            "rating": "none",
+            "quote": "As a pet owner, I’m always looking for the best for my dog. Pats' chicken jerky treats are not only healthy but sustainably sourced, which is important to me. My dog can’t get enough!",
+            "source": "Emily R.",
+            "subtitle": "Eco-Conscious Pet Parent"
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_kVbJf7",
+        "shape_divider_Grjmhz",
+        "testimonial_rAdkL8",
+        "testimonial_tje4CC"
+      ],
+      "settings": {
+        "custom_class": "home-testimonios",
+        "display_on_card": false,
+        "title": "Tio Saji: el aliado de Pediatras y Nutricionistas",
+        "font": "font-heading",
+        "mobile_text_scale": 2,
+        "desktop_text_scale": 9,
+        "source_font": "font-heading heading-secondary",
+        "max_width": 100,
+        "disable_media_style": false,
+        "crop": "",
+        "image_shape": "default",
+        "color_scheme": "scheme4",
+        "use_gradient_background": false
+      }
+    },
+    "scrolling-logos": {
+      "type": "scrolling-logos",
+      "blocks": {
+        "logo-0": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo-1": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo-2": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo-3": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo-4": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo-5": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo-6": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo-0",
+        "logo-1",
+        "logo-2",
+        "logo-3",
+        "logo-4",
+        "logo-5",
+        "logo-6"
+      ],
+      "disabled": true,
+      "name": "Posible - Logotipos desplazables",
+      "settings": {
+        "title": "As seen in",
+        "max_width": 150,
+        "speed": 180,
+        "direction": "normal",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "custom_class": "home-boletin",
+        "title": "Únete al club dos que saben lo que dan",
+        "richtext": "<p>Beneficios: recetas, promos, acceso anticipado a stock</p>",
+        "display_on_card": false,
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "text-columns-with-images": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "title": "Order with Ease",
+            "text": "<p>Simply choose your dog’s favorite treats and chews from our range of wholesome options. Tailor your order to suit their unique needs and preferences.</p>",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "title": "We Prepare & Deliver",
+            "text": "<p>Our team crafts your dog’s meals and treats with care, using the freshest ingredients. We then deliver them straight to your door, ensuring they arrive fresh and ready to enjoy.</p>",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "column-2": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "title": "Your Dog Thrives",
+            "text": "<p>Watch as your dog enjoys delicious, nutritious food that supports their overall health and happiness. With Pats, every meal is a step toward a longer, healthier life.</p>",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "ocultar_imagen": false,
+        "display_on_card": true,
+        "slideshow_on_mobile": false,
+        "title": "How it works",
+        "crop": "",
+        "image_shape": "default",
+        "show_index_on_blocks": true,
+        "index_shape": "star_1",
+        "color_scheme": "scheme1",
+        "use_gradient_background": false
+      }
+    },
+    "comparison-table": {
+      "type": "comparison-table",
+      "blocks": {
+        "row-0": {
+          "type": "row",
+          "settings": {
+            "title": "Discloses Ingredients",
+            "column_1_icon": "like",
+            "column_1_text": "",
+            "column_2_icon": "thumbs_down",
+            "column_2_text": "",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "row-1": {
+          "type": "row",
+          "settings": {
+            "title": "Sustainably Produced",
+            "column_1_icon": "like",
+            "column_1_text": "",
+            "column_2_icon": "thumbs_down",
+            "column_2_text": "",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "row-2": {
+          "type": "row",
+          "settings": {
+            "title": "No Artificial Additives or Fillers",
+            "column_1_icon": "like",
+            "column_1_text": "",
+            "column_2_icon": "thumbs_down",
+            "column_2_text": "",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "row-3": {
+          "type": "row",
+          "settings": {
+            "title": "Sustainable Practices",
+            "column_1_icon": "like",
+            "column_1_text": "",
+            "column_2_icon": "thumbs_down",
+            "column_2_text": "",
+            "column_3_icon": "",
+            "column_3_text": "",
+            "column_4_icon": "",
+            "column_4_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "row-0",
+        "row-1",
+        "row-2",
+        "row-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "How we compare",
+        "display_on_card": false,
+        "max_width": "max-w-2xl",
+        "highlighted_column": "1",
+        "highlighted_column_color": "accent-1",
+        "show_scroll_left_to_right_on_mobile": true,
+        "column_1_title": "Pats",
+        "column_2_title": "Evil Corporate Dog Food",
+        "enable_column_3": false,
+        "column_3_title": "Column 3",
+        "enable_column_4": false,
+        "column_4_title": "Column 4",
+        "icon_thickness": 2,
+        "background_color": "bg-scheme-text text-scheme-background",
+        "show_border": false,
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "video-with-text-overlay": {
+      "type": "video-with-text-overlay",
+      "blocks": {
+        "shape-divider-video-with-text-overlay-0": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape-divider-video-with-text-overlay-1": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape-divider-video-with-text-overlay-0",
+        "shape-divider-video-with-text-overlay-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "crop": "vertical",
+        "crop_desktop": "widescreen",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": false,
+        "style": "full",
+        "place_content": "place-content-center-start",
+        "text_align": "text-left",
+        "title": "Our Commitment to Your Pet’s Well-Being",
+        "heading_size": "heading-standard",
+        "richtext": "Discover the story behind Pats—crafted with love, quality, and purpose.",
+        "cta_url": "",
+        "cta_text": "About Us",
+        "color_scheme": "scheme4",
+        "use_gradient_background": false
+      }
+    },
+    "image-with-highlights": {
+      "type": "image-with-highlights",
+      "blocks": {
+        "highlight-0": {
+          "type": "highlight",
+          "settings": {
+            "title": "100% Natural Ingredients",
+            "text": "Our jerky treats are made with just one ingredient—real, premium meat, with no fillers or artificial additives.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight-1": {
+          "type": "highlight",
+          "settings": {
+            "title": "Sourced from Local Farms",
+            "text": "We partner with trusted local farmers who raise their livestock with care, ensuring the highest quality for your pet.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight-2": {
+          "type": "highlight",
+          "settings": {
+            "title": "Slow-Dried for Maximum Flavor:",
+            "text": "Our jerky is slow-dried to lock in natural flavors and nutrients, making every bite irresistibly tasty.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight-3": {
+          "type": "highlight",
+          "settings": {
+            "title": "Sustainably Produced",
+            "text": "We’re committed to sustainability, using eco-friendly packaging and minimizing waste throughout our production process.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight-4": {
+          "type": "highlight",
+          "settings": {
+            "title": "Grain-Free",
+            "text": "Perfect for dogs with sensitivities, our jerky treats are grain-free and hypoallergenic, so all pups can enjoy them safely.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight-5": {
+          "type": "highlight",
+          "settings": {
+            "title": "Packed with Protein",
+            "text": "Our jerky treats are a protein-rich snack that helps support strong muscles and overall vitality in your dog.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "sticker-image-with-highlights-0": {
+          "type": "sticker",
+          "settings": {
+            "width": 150,
+            "half_width_on_mobile": false,
+            "text": "Spoilers:<br>Only Good Stuff",
+            "shape": "wave_ribbon",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 88,
+            "vertical_position": 10,
+            "rotate": 26,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        }
+      },
+      "block_order": [
+        "highlight-0",
+        "highlight-1",
+        "highlight-2",
+        "highlight-3",
+        "highlight-4",
+        "highlight-5",
+        "sticker-image-with-highlights-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "What’s in a Treat?",
+        "block_alignment_on_desktop": "justify-center",
+        "display_on_card": true,
+        "slideshow_on_mobile": true,
+        "slideshow_focus": "center",
+        "max_width": 840,
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "disable_media_style": false,
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "featured-testimonials": {
+      "type": "featured-testimonials",
+      "blocks": {
+        "shape-divider-featured-testimonials-0": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "testimonial-0": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "My dog absolutely loves Pats' jerky treats! I feel great knowing they’re made with pure, natural ingredients and no junk. It’s the only treat I trust to give him!",
+            "source": "Kirsten M., Proud Dog Mom",
+            "subtitle": ""
+          }
+        },
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "As a pet owner, I’m always looking for the best for my dog. Pats' chicken jerky treats are not only healthy but sustainably sourced, which is important to me. My dog can’t get enough!",
+            "source": "Emily R., Eco-Conscious Pet Parent",
+            "subtitle": ""
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "Pats has been a game-changer for our pup’s diet. The quality of their products, especially the jerky, is unmatched. Our dog’s coat is shinier, and she has more energy than ever!",
+            "source": "Doug, Dog Walker",
+            "subtitle": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape-divider-featured-testimonials-0",
+        "testimonial-0",
+        "testimonial-1",
+        "testimonial-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "display_on_card": false,
+        "title": "Words from Humans...",
+        "font": "font-heading",
+        "mobile_text_scale": 2,
+        "desktop_text_scale": 9,
+        "source_font": "font-heading heading-secondary",
+        "max_width": 100,
+        "disable_media_style": false,
+        "crop": "",
+        "image_shape": "default",
+        "color_scheme": "scheme4",
+        "use_gradient_background": false
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial-0": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "I woof it down so fast, my tail can't keep up! Best kibble ever!",
+            "source": "Biscuit"
+          }
+        },
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "Tastes like a thousand belly rubs! I give it all four paws up!\"",
+            "source": "Luna"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "Finally, something that fills me up! Now I can nap in peace.\"",
+            "source": "Max"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "It’s so good, I might even share with the cat… maybe.\"",
+            "source": "Bella"
+          }
+        },
+        "testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "Big flavor in little bites—just how I like it!",
+            "source": "Charlie"
+          }
+        },
+        "testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "Fetch? No way, I'm too busy enjoying my dinner!",
+            "source": "Rocky"
+          }
+        },
+        "shape-divider-testimonials-0": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme2",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-0",
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3",
+        "testimonial-4",
+        "testimonial-5",
+        "shape-divider-testimonials-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "display_on_card": true,
+        "title": "...and Barks from Dogs",
+        "max_width": 190,
+        "disable_media_style": false,
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "scalloped_circle_5",
+        "desktop_slide_width": 25,
+        "autoscroll_mode": "1",
+        "color_scheme": "scheme4",
+        "use_gradient_background": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "blocks": {
+        "shape-divider-featured-collection-0": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape-divider-featured-collection-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Dog Collars",
+        "subheading": "Explore our range of premium dog collars, designed for comfort, durability, and style.",
+        "collection": "all",
+        "no_products": 10,
+        "show_view_all": true,
+        "enable_quick_buy": false,
+        "display_on_card": false,
+        "layout": "carousel",
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "slideshow_focus": "center",
+        "mobile_slide_width": "three_fifths",
+        "desktop_slide_width": 40,
+        "autoscroll_mode": "1",
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "scalloped_circle_6",
+        "color_scheme": "scheme2",
+        "use_gradient_background": false
+      }
+    },
+    "featured-product": {
+      "type": "featured-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "display_on_card": false,
+            "text_align": "text-left"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_on_card": false,
+            "show_on_sale_sticker": false,
+            "text_align": "text-left"
+          }
+        },
+        "variant-picker": {
+          "type": "variant_picker",
+          "settings": {
+            "display_on_card": false,
+            "option_style": "drop_down",
+            "full_width_buttons": false,
+            "hide_option_labels": false,
+            "enable_color_swatches": false
+          }
+        },
+        "buy-buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "display_on_card": false,
+            "show_price": false,
+            "enable_payment_button": true,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "display_on_card": false,
+            "truncate_description": true,
+            "text_align": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "variant-picker",
+        "buy-buttons",
+        "description"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "The Perfect Vessel for <em>Pats</em>",
+        "product": "",
+        "crop": "",
+        "image_shape": "scalloped_circle_5",
+        "media_mobile_width": "w-full",
+        "desktop_media_width": "lg:col-span-7_lg:col-span-5",
+        "enable_video_looping": true,
+        "thumbnails_position": "left",
+        "thumbnail_crop": "aspect-w-1 aspect-h-1",
+        "thumbnail_shape": "scalloped_circle_5",
+        "hide_media_shadow": false,
+        "thumbnail_size": "standard",
+        "show_thumbnails_on_mobile": false,
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "question-0": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "What ingredients do you use in your products?",
+            "answer": "<p>We use only high-quality, natural ingredients in our products, with no artificial additives, fillers, or preservatives. Each recipe is carefully crafted to provide balanced nutrition for your dog.</p>"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Where do you source your meat from?",
+            "answer": "<p>Our meat is sourced from trusted local farms that practice humane and sustainable farming methods. We prioritize quality and ethical sourcing to ensure your dog gets the best possible nutrition.</p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Do you offer grain-free or hypoallergenic options?",
+            "answer": "<p>Yes! We offer a range of grain-free and hypoallergenic options to cater to dogs with specific dietary needs. Always check the ingredients list, and consult with your vet if you’re unsure.</p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "How do you ensure the freshness of your products?",
+            "answer": "<p>Our products are made in small batches and delivered promptly to ensure they arrive fresh. We also use eco-friendly, airtight packaging to maintain freshness for longer periods.</p>"
+          }
+        },
+        "question-4": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "What products do you offer?",
+            "answer": "<p>We offer a variety of both meals and treats, including our popular chicken jerky, which is a favorite among dogs of all sizes. Everything is designed to complement a balanced diet.</p>"
+          }
+        },
+        "question-5": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "How long does delivery take?",
+            "answer": "<p>Delivery times vary depending on your location, but we strive to get your order to you within 3-5 business days. You’ll receive tracking information once your order is on its way.</p>"
+          }
+        },
+        "question-6": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Where can I purchase Pats products?",
+            "answer": "<p>Currently, Pats products are available exclusively through our online store. This allows us to ensure the highest quality and freshness with every order.</p>"
+          }
+        },
+        "question-7": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "What if my dog doesn’t like the product?",
+            "answer": "<p>We’re confident your dog will love Pats, but if for any reason they don’t, please contact our customer service team. We’ll work with you to find a solution, including offering a refund or a product exchange.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question-0",
+        "question-1",
+        "question-2",
+        "question-3",
+        "question-4",
+        "question-5",
+        "question-6",
+        "question-7"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "display_on_card": true,
+        "heading_text_style": "heading",
+        "two_columns_desktop": true,
+        "title": "FAQ",
+        "richtext": "You asked, we answered!",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "scrolling-text-with-icons": {
+      "type": "scrolling-text-with-icons",
+      "blocks": {
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "text": "Free shipping worldwide",
+            "icon": "globe"
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Environmentally friendly",
+            "icon": "leaf"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "settings": {
+            "text": "24/7 support",
+            "icon": "chat_bubble"
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "settings": {
+            "text": "Food org certified",
+            "icon": "check_mark"
+          }
+        },
+        "text-4": {
+          "type": "text",
+          "settings": {
+            "text": "Good for you",
+            "icon": "heart"
+          }
+        }
+      },
+      "block_order": [
+        "text-0",
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "repeat_text": true,
+        "link": "",
+        "font": "body",
+        "gap": "gap-36",
+        "icon_size": "size-8",
+        "speed": 120,
+        "direction": "",
+        "icon_thickness": 1.5,
+        "background_color": "bg-transparent text-scheme-text",
+        "show_border": true,
+        "color_scheme": "scheme1",
+        "use_gradient_background": false
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "number_of_blogs": 2,
+        "display_on_card": true,
+        "posts_per_row_desktop": 3,
+        "title": "From the Dog Blog",
+        "blog": "",
+        "post_limit": 3,
+        "crop": "aspect-w-4 aspect-h-3",
+        "image_shape": "default",
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "show_post_excerpt": true,
+        "show_view_all": true,
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "html_liquid_BTpwrP",
+    "image-with-text",
+    "icon-list",
+    "rich-text",
+    "collection-focus-carousel",
+    "blog_posts_AAGdhK",
+    "icon_list_NRaaVi",
+    "featured_testimonials_6nUB6q",
+    "scrolling-logos",
+    "newsletter",
+    "text-columns-with-images",
+    "comparison-table",
+    "video-with-text-overlay",
+    "image-with-highlights",
+    "featured-testimonials",
+    "testimonials",
+    "featured-collection",
+    "featured-product",
+    "faq",
+    "scrolling-text-with-icons",
+    "blog-posts"
+  ]
+}

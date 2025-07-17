@@ -1,0 +1,203 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "shape-divider-image-with-text-overlay-0": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape-divider-image-with-text-overlay-1": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": true,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape-divider-image-with-text-overlay-0",
+        "shape-divider-image-with-text-overlay-1"
+      ],
+      "settings": {
+        "custom_class": "default-hero",
+        "image": "shopify://shop_images/nosotros-hero.webp",
+        "display_on_card": false,
+        "display_content_below_image_on_mobile": false,
+        "style": "full",
+        "height": "pt-two-thirds-screen-height",
+        "place_content": "place-content-center-start",
+        "text_align": "text-left",
+        "title": "Lo natural también puede ser delicioso",
+        "heading_size": "heading-feature",
+        "richtext": "Desde la Amazonía del Perú, creamos opciones naturales, innovadoras y sabrosas para acompañar la alimentación infantil desde sus primeros pasos.",
+        "cta_url": "",
+        "cta_text": "",
+        "color_scheme": "scheme3",
+        "use_gradient_background": false
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "settings": {
+        "custom_class": "",
+        "title": "Our Mission",
+        "heading_size": "heading-standard",
+        "rich_text": "<p>At Pats, we’re dedicated to providing pets with the highest quality nutrition, because we believe every dog deserves to thrive. We’re passionate about crafting wholesome, delicious food that supports your dog’s well-being, from their shiny coat to their wagging tail. By using carefully selected ingredients and sustainable practices, we’re committed to making a positive impact on both pets and the planet.</p>",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
+    "image-with-text-0": {
+      "type": "image-with-text",
+      "blocks": {
+        "shape-divider-image-with-text0-0": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape-divider-image-with-text0-0"
+      ],
+      "settings": {
+        "custom_class": "",
+        "display_on_card": false,
+        "crop": "",
+        "image_shape": "scalloped_circle_5",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "left",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Our Story",
+        "heading_size": "heading-standard",
+        "richtext": "<p>Pats was born out of a simple idea: to create pet food that we’d be proud to feed our own dogs. What started in a small kitchen with a passion for quality ingredients has grown into a trusted brand that pet parents across the country rely on. From our humble beginnings, we’ve always believed that good nutrition is the foundation of a happy, healthy dog, and that’s why we continue to innovate, sourcing the best ingredients and developing recipes that dogs love.</p>",
+        "text_alignment": "text-left",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme2",
+        "use_gradient_background": false
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "sticker-image-with-text-0": {
+          "type": "sticker",
+          "settings": {
+            "width": 150,
+            "half_width_on_mobile": false,
+            "text": "No. 1<br>Big Dog!",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 90,
+            "vertical_position": 16,
+            "rotate": 14,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme4",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
+        "shape-divider-image-with-text1-0": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme2",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape-divider-image-with-text1-1": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "tilt-1-shape_1440x101",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "sticker-image-with-text-0",
+        "shape-divider-image-with-text1-0",
+        "shape-divider-image-with-text1-1"
+      ],
+      "settings": {
+        "custom_class": "",
+        "display_on_card": false,
+        "crop": "",
+        "image_shape": "scalloped_square_2",
+        "blob_type": 1,
+        "rotate_image": 6,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Meet Our Chief Dog Officer: <em>Max</em>",
+        "heading_size": "heading-standard",
+        "richtext": "<p>Max, our Chief Dog Officer, is the heart and soul of Pats. A sprightly Border Collie with boundless energy and a love for life, Max is our inspiration for creating food that keeps dogs active, healthy, and happy.<br/><br/>Whether he’s testing new flavors or enjoying a game of fetch, Max’s enthusiasm reminds us every day why we do what we do. With Max’s keen taste-testing skills and unyielding commitment to quality, you can trust that every product from Pats has received his paw of approval.</p>",
+        "text_alignment": "text-left",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme4",
+        "use_gradient_background": false
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "custom_class": "",
+        "title": "Sign up to our newsletter",
+        "richtext": "<p>Receive special offers and first look at new products.</p>",
+        "display_on_card": false,
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "image-with-text-overlay",
+    "rich-text",
+    "image-with-text-0",
+    "image-with-text-1",
+    "newsletter"
+  ]
+}

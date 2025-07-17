@@ -1,0 +1,21 @@
+{
+  "name": "tio-saji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "dotenv shopify theme dev --theme $SHOPIFY_THEME_ID",
+    "push": "dotenv shopify theme push --theme $SHOPIFY_THEME_ID",
+    "pull": "dotenv shopify theme pull --theme $SHOPIFY_THEME_ID",
+    "safe-pull": "dotenv shopify theme push --theme $SHOPIFY_THEME_ID && dotenv shopify theme pull --theme $SHOPIFY_THEME_ID",
+    "list": "dotenv shopify theme list"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "dotenv-cli": "^8.0.0"
+  }
+}
