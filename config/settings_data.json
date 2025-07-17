@@ -97,6 +97,7 @@
     "social_tiktok_link": "https://www.tiktok.com/@shopify",
     "social_youtube_link": "https://www.youtube.com/user/shopify",
     "cart_icon": "cart",
+    "favicon": "shopify://shop_images/new_favicon.png",
     "navigation_font": "font-main",
     "navigation_uppercase": false,
     "product_tiles_quick_buy": true,
