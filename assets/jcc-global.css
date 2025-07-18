@@ -70,13 +70,19 @@
 }
 
 /* Botones */
-.push-btn:not(.splide__arrow):not(.btn-productos-filters):not(.btn-productos-sort) > span {
+.push-btn:not(.splide__arrow):not(.btn-productos-filters):not(
+    .btn-productos-sort
+  ):not(.pagination__item)
+  > span {
   padding-block: 18.5px;
   padding-inline: 27px;
   min-width: 207px;
 }
-@media(max-width: 767px){
-  .push-btn:not(.splide__arrow):not(.btn-productos-filters):not(.btn-productos-sort) > span {
+@media (max-width: 767px) {
+  .push-btn:not(.splide__arrow):not(.btn-productos-filters):not(
+      .btn-productos-sort
+    ):not(.pagination__item)
+    > span {
     padding-block: 17px;
     padding-inline: 24px;
     min-width: 187px;
