@@ -108,7 +108,12 @@
     animate(); // Inicia el loop
   };
 
+  const addFadeLoad = () => {
+    document.body.classList.add("fade-in");
+  };
+
   const initDOMReady = () => {
+    addFadeLoad();
     injectFloatingElements(
       `.home-liofilizacion,.home-encuentranos, .home-desayunos, .home-boletin, .nosotros-boletin, .nosotros-mision, .proceso-boletin, .proceso-liofilizacion, .section-form`
     );

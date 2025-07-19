@@ -832,6 +832,13 @@
 }
 
 /*--------------------------------ANIMACIONES--------------------------------*/
+body {
+  opacity: 0;
+  transition: opacity 0.65s ease-out;
+}
+body.fade-in {
+  opacity: 1;
+}
 .home-hero,
 .nosotros-hero,
 .proceso-hero {
