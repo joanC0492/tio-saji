@@ -1,0 +1,120 @@
+(() => {
+  const injectFloatingElements = (selector) => {
+    const targets = document.querySelectorAll(selector);
+
+    targets.forEach((section) => {
+      // Crear contenedor
+      const container = document.createElement("div");
+      container.className = "floating-elements";
+      container.innerHTML = `
+      <div class="float-item" data-speed="2">
+        <img src="{{ 'galletita-1.png' | asset_url }}" data-speed="2" width="85" height="100">
+      </div>
+      <div class="float-item" data-speed="-1.5">
+        <img src="{{ 'galletita-2.png' | asset_url }}" data-speed="-1.5" width="85" height="100">
+      </div>
+      <div class="float-item" data-speed="1">
+        <img src="{{ 'galletita-3.png' | asset_url }}" data-speed="1" width="85" height="100">
+      </div>
+
+      <div class="hidden float-item" data-speed="2">
+        <img src="{{ 'galletita-4.png' | asset_url }}" data-speed="1" width="85" height="100">
+      </div>
+      <div class="hidden float-item" data-speed="-1.5">
+        <img src="{{ 'galletita-5.png' | asset_url }}" data-speed="1" width="85" height="100">
+      </div>
+      <div class="hidden float-item" data-speed="1">
+        <img src="{{ 'galletita-6.png' | asset_url }}" data-speed="1" width="85" height="100">
+      </div>      
+    `.trim();
+
+      // Insertarlo justo antes del cierre del section
+      section.appendChild(container);
+    });
+  };
+
+  const setupScrollAnimations = () => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target); // Solo se anima una vez
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    // const query = ".animate-on-scroll";
+    const query = "section[class*='-beneficios'] .icon-list-content > li";
+    document.querySelectorAll(query).forEach((el) => {
+      observer.observe(el);
+    });
+    // section[class*='-beneficios'] .icon-list-content > li
+  };
+
+  const setupFloatingItemsParallax = () => {
+    // const items = document.querySelectorAll(".float-item");
+    // document.addEventListener("mousemove", (e) => {
+    //   const x = (e.clientX / window.innerWidth - 0.5) * 2;
+    //   const y = (e.clientY / window.innerHeight - 0.5) * 2;
+    //   items.forEach((el) => {
+    //     const speed = parseFloat(el.dataset.speed || 1);
+    //     el.style.transform = `translate(${x * speed * 10}px, ${
+    //       y * speed * 10
+    //     }px) rotate(${(Date.now() / 100) % 360}deg)`;
+    //   });
+    // });
+
+    //
+
+    // const items = document.querySelectorAll(".float-item");
+    // document.addEventListener("mousemove", (e) => {
+    //   const x = (e.clientX / window.innerWidth - 0.5) * 2;
+    //   const y = (e.clientY / window.innerHeight - 0.5) * 2;
+
+    //   items.forEach((el) => {
+    //     const speed = parseFloat(el.dataset.speed || 1);
+    //     el.style.transform = `translate(${x * speed * 10}px, ${
+    //       y * speed * 10
+    //     }px)`;
+    //   });
+    // });
+
+    //
+
+    const items = document.querySelectorAll(".float-item");
+    let x = 0,
+      y = 0;
+
+    document.addEventListener("mousemove", (e) => {
+      x = (e.clientX / window.innerWidth - 0.5) * 2;
+      y = (e.clientY / window.innerHeight - 0.5) * 2;
+    });
+
+    const animate = () => {
+      items.forEach((el) => {
+        const speed = parseFloat(el.dataset.speed || 1);
+        const offsetX = x * speed * 10;
+        const offsetY = y * speed * 10;
+
+        // Aplicamos solo translate sin romper el rotate del SCSS
+        el.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
+      });
+
+      requestAnimationFrame(animate);
+    };
+
+    animate(); // Inicia el loop
+  };
+
+  const initDOMReady = () => {
+    injectFloatingElements(
+      `.home-liofilizacion,.home-encuentranos, .home-desayunos, .home-boletin, .nosotros-boletin, .nosotros-mision, .proceso-boletin, .proceso-liofilizacion, .section-form`
+    );
+    setupScrollAnimations();
+    setupFloatingItemsParallax();
+  };
+
+  document.addEventListener("DOMContentLoaded", initDOMReady);
+})();

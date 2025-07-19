@@ -15,9 +15,7 @@
           {{ section.settings.rich_text }}
         </div>
 
-        {%- if section.settings.button_link != blank
-          and section.settings.button_label != ''
-        -%}
+        {%- if section.settings.button_link != blank and section.settings.button_label != '' -%}
           <div class="mt-5">
             <a
               href="{{ section.settings.button_link }}"
@@ -42,7 +40,7 @@
           render 'block-background-pattern', block: block, scheme: section.settings.color_scheme
       endcase
     endfor
-  -%}
+  -%}  
 </section>
 
 {%- liquid
@@ -64,7 +62,7 @@
       "type": "text",
       "id": "custom_class",
       "label": "Clase CSS personalizada"
-    },    
+    },
     {
       "type": "inline_richtext",
       "id": "title",
@@ -1650,11 +1648,7 @@
     }
   ],
   "disabled_on": {
-    "groups": [
-      "header",
-      "footer",
-      "aside"
-    ]
+    "groups": ["header", "footer", "aside"]
   }
 }
 {% endschema %}

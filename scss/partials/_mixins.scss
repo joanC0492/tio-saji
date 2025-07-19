@@ -4,6 +4,15 @@
   .icon-list-content {
     max-width: 1440px;
     margin-inline: auto;
+    li {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease-out;
+      &.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
   }
 
   .feature-icon-list {
@@ -56,6 +65,21 @@
         background: var(--gradient-amarillo);
         opacity: 0.9;
       }
+    }
+  }
+
+  .float-item {
+    &:nth-child(1) {
+      top: 5%;
+      left: 10%;
+    }
+    &:nth-child(3) {
+      top: 65%;
+      left: 13%;
+    }
+    &:nth-child(2) {
+      top: 40%;
+      left: 85%;
     }
   }
 }

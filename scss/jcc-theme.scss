@@ -1,4 +1,5 @@
-@use 'partials/mixins' as *;
+@use "partials/mixins" as *;
+@use "partials/animations" as *;
 
 /* HOME */
 .home {
@@ -830,4 +831,134 @@
   }
 }
 
-// 
+/*--------------------------------ANIMACIONES--------------------------------*/
+.home-hero,
+.nosotros-hero,
+.proceso-hero {
+  div:has(> .element-title) {
+    opacity: 0;
+    animation: fadeSlideUp 0.8s ease-out forwards;
+    animation-delay: 0.2s;
+  }
+  .card-blog__figure {
+    img {
+      opacity: 0;
+      animation: zoomInRight 1s ease-out forwards;
+      animation-delay: 0.4s;
+    }
+  }
+}
+
+.home {
+  .home-beneficios {
+    .icon-list-content {
+      li {
+        // opacity: 0;
+        // animation: fadeInUp 0.6s ease forwards;
+        opacity: 0;
+        transform: translateY(40px);
+        transition: all 0.6s ease-out;
+        &.is-visible {
+          opacity: 1;
+          transform: translateY(0);
+        }
+
+        &:nth-child(1) {
+          animation-delay: 0.2s;
+        }
+        &:nth-child(2) {
+          animation-delay: 0.4s;
+        }
+        &:nth-child(3) {
+          animation-delay: 0.6s;
+        }
+        &:nth-child(4) {
+          animation-delay: 0.8s;
+        }
+        &:nth-child(5) {
+          animation-delay: 1s;
+        }
+        &:nth-child(6) {
+          animation-delay: 1.2s;
+        }
+      }
+    }
+  }
+
+  .home-productos {
+    background-attachment: fixed;
+  }
+
+  .home-desayunos {
+    .floating-elements {
+      .hidden {
+        display: block;
+      }
+    }
+    .float-item {
+      &:nth-child(2) {
+        top: 15%;
+        left: 10%;
+      }
+      &:nth-child(3) {
+        top: 75%;
+        left: 8%;
+      }
+      &:nth-child(1) {
+        top: 10%;
+        left: 85%;
+      }
+      //
+      &:nth-child(4) {
+        top: 45%;
+        left: 5%;
+      }
+      &:nth-child(5) {
+        top: 35%;
+        left: 95%;
+      }
+      &:nth-child(6) {
+        top: 85%;
+        left: 75%;
+      }
+    }
+  }
+
+  .home-encuentranos {
+    .float-item {
+      &:nth-child(2) {
+        top: 10%;
+        left: 20%;
+      }
+      &:nth-child(3) {
+        top: 65%;
+        left: 10%;
+      }
+      &:nth-child(1) {
+        top: 5%;
+        left: 70%;
+      }
+    }
+  }
+}
+.section-form {
+  .float-item {
+    &:nth-child(2) {
+      top: 10%;
+      left: 15%;
+    }
+    &:nth-child(3) {
+      top: 65%;
+      left: 10%;
+    }
+    &:nth-child(1) {
+      top: 5%;
+      left: 80%;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .floating-elements {
+    display: none !important;
+  }
+}
