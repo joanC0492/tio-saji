@@ -1,0 +1,108 @@
+@mixin beneficios-estilos {
+  // background-color: rgba(var(--color-crema-rgb), 0.2);
+
+  .icon-list-content {
+    max-width: 1440px;
+    margin-inline: auto;
+  }
+
+  .feature-icon-list {
+    overflow: hidden;
+  }
+
+  .icon-list-title {
+    color: var(--color-marron-2);
+    // font-weight: 700;
+    // font-size: 21px;
+    @media (max-width: 767px) {
+      font-size: 18px;
+    }
+  }
+}
+
+@mixin boletin-form {
+  // vacío por ahora
+  .newsletter-title {
+    color: var(--color-verde);
+    // max-width: 501px;
+    // margin-inline: auto;
+  }
+  .newsletter-desc {
+    color: var(--color-marron-2);
+  }
+  .newsletter-input {
+    border-color: #574a50;
+    box-shadow: rgb(87, 74, 80) 0px 0px 0px 2px inset;
+    padding-top: 1.15rem;
+    padding-bottom: 1.15rem;
+    &::placeholder {
+      color: var(--color-marron-2);
+      opacity: 0.3;
+    }
+    &:focus-visible {
+      outline-color: rgb(87, 74, 80);
+    }
+  }
+  .newsletter-input-parent {
+    max-width: 500px;
+    margin-right: 1rem;
+  }
+  .newsletter-btn-main {
+    > span {
+      background: var(--gradient-amarillo);
+    }
+    &:hover {
+      > span {
+        background: var(--gradient-amarillo);
+        opacity: 0.9;
+      }
+    }
+  }
+}
+
+@mixin page-hero {
+  padding-top: 3% !important;
+  padding-bottom: 7% !important;
+  background-color: var(--color-verde);
+  .py-section-vertical-spacing {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .element-title {
+    color: white;
+  }
+  .element-richtext {
+    color: white;
+  }
+  .media-image-figure {
+    img {
+    }
+  }
+}
+
+@mixin card-blog() {
+  height: 100%;
+  &__body {
+    height: 100%;
+    border-color: var(--color-marron-2);
+  }
+  &__link {
+    background-color: var(--color-verde);
+    color: #fff;
+    padding-block: 20px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 20px;
+    @media (max-width: 767px) {
+      padding-block: 10px;
+      font-size: 18px;
+    }
+  }
+  &__desc {
+    text-align: left;
+    color: var(--color-marron-2);
+    li {
+      margin-bottom: 1.25rem !important;
+    }
+  }
+}

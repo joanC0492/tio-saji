@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "dotenv shopify theme dev --theme $SHOPIFY_THEME_ID",
+    "shopify-dev": "dotenv shopify theme dev --theme $SHOPIFY_THEME_ID",
+    "sass": "sass --watch scss:assets --style compressed",
+    "dev": "concurrently \"npm run sass\" \"npm run shopify-dev\"",
     "push": "dotenv shopify theme push --theme $SHOPIFY_THEME_ID",
     "pull": "dotenv shopify theme pull --theme $SHOPIFY_THEME_ID",
     "safe-pull": "dotenv shopify theme push --theme $SHOPIFY_THEME_ID && dotenv shopify theme pull --theme $SHOPIFY_THEME_ID",
@@ -16,6 +18,8 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "dotenv-cli": "^8.0.0"
+    "concurrently": "^9.2.0",
+    "dotenv-cli": "^8.0.0",
+    "sass": "^1.89.2"
   }
 }
