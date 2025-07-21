@@ -44,16 +44,16 @@
     },
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
       "settings": {
+        "custom_class": "home-cintillo",
         "home_page_only": true,
         "display": "scrolling_text",
-        "text": "We love dogs",
+        "text": "Producto 100% natural",
         "link": "",
         "color_scheme": "scheme1",
         "use_gradient_background": false,
         "repeat_text": true,
-        "shape_between_text": "star",
+        "shape_between_text": "saji",
         "animate_shape_between_text": true,
         "speed": 120,
         "direction": ""

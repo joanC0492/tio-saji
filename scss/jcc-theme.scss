@@ -17,6 +17,15 @@
     .home-cintillo__txt {
       color: white;
     }
+
+    //
+    .scrolling-text {
+      gap: 7px;
+      &__text {
+        color: white;
+        font-size: 16px;
+      }
+    }
   }
 
   .home-hero {

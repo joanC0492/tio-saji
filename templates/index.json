@@ -11,6 +11,7 @@
   "sections": {
     "html_liquid_BTpwrP": {
       "type": "html-liquid",
+      "disabled": true,
       "name": "Cintillo",
       "settings": {
         "custom_class": "home-cintillo",
