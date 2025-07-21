@@ -38,9 +38,27 @@
   <div class="scrolling-text flex shrink-0 grow-0 items-center {{ font }}">
     {%- if repeat_text -%}
       {%- if shape_between_text == 'saji' -%}
-        <img src="{{ 'icon-cintillo-top.svg' | asset_url }}" alt="Cintillo" width="16" height="16" class="home-cintillo__img">
-        <span class="scrolling-text__text {{ text_size_class }} {% if font contains 'heading' and section.settings.apply_effects %}heading-effects{% endif %}">{{ text }}</span>
-        <img src="{{ 'icon-cintillo-top.svg' | asset_url }}" alt="Cintillo" width="16" height="16" class="home-cintillo__img">
+        <div class="flex items-center gap-2">
+          <img src="{{ 'icon-cintillo-top.svg' | asset_url }}" alt="Cintillo" width="16" height="16" class="home-cintillo__img">
+          <span class="scrolling-text__text {{ text_size_class }} {% if font contains 'heading' and section.settings.apply_effects %}heading-effects{% endif %}">{{ text }}</span>
+          <img src="{{ 'icon-cintillo-top.svg' | asset_url }}" alt="Cintillo" width="16" height="16" class="home-cintillo__img">
+        </div>
+        <span class="scrolling-text__svg flex-shrink-0 px-2 text-current">
+          <svg class="h-4 w-4 rotate-anim" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
+        </span>
+        <div class="flex items-center gap-2">
+          <img src="{{ 'icon-cintillo-top.svg' | asset_url }}" alt="Cintillo" width="16" height="16" class="home-cintillo__img">
+          <span class="scrolling-text__text {{ text_size_class }} {% if font contains 'heading' and section.settings.apply_effects %}heading-effects{% endif %}">Producto Liofilizado</span>
+          <img src="{{ 'icon-cintillo-top.svg' | asset_url }}" alt="Cintillo" width="16" height="16" class="home-cintillo__img">
+        </div>
+        <span class="scrolling-text__svg flex-shrink-0 px-2 text-current">
+          <svg class="h-4 w-4 rotate-anim" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
+        </span>
+        <div class="flex items-center gap-2">
+          <img src="{{ 'icon-cintillo-top.svg' | asset_url }}" alt="Cintillo" width="16" height="16" class="home-cintillo__img">
+          <span class="scrolling-text__text {{ text_size_class }} {% if font contains 'heading' and section.settings.apply_effects %}heading-effects{% endif %}">Súperfoods de la selva</span>
+          <img src="{{ 'icon-cintillo-top.svg' | asset_url }}" alt="Cintillo" width="16" height="16" class="home-cintillo__img">
+        </div>
       {%- else -%}        
         <span class="scrolling-text__text {{ text_size_class }} {% if font contains 'heading' and section.settings.apply_effects %}heading-effects{% endif %}">{{ text }}</span>
       {%- endif -%}        
@@ -72,7 +90,7 @@
     {%- else -%}
       <span class="{{ text_size_class }} {% if font contains 'heading' and section.settings.apply_effects %}heading-effects{% endif %}">{{ text }}</span>
     {%- endif -%}
-  </div>
+  </div>  
 {%- endcapture -%}
 
 <div
@@ -100,7 +118,7 @@
     >
       <scrolling-items-surface class="flex flex-nowrap items-center{% if gap %} {{ gap }}{% endif %}">
         <scrolling-items-content class="{{ content_class }}">
-          {{- scrolling_text -}}
+          {{- scrolling_text -}}          
         </scrolling-items-content>
 
         <noscript>
