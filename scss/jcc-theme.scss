@@ -93,7 +93,8 @@
   }
 
   .home-productos {
-    background-image: url("https://cdn.shopify.com/s/files/1/0598/8302/8614/files/section-bg.webp?v=1752418280");
+    // background-image: url("https://cdn.shopify.com/s/files/1/0598/8302/8614/files/section-bg.webp?v=1752418280");
+    background-image: url("https://cdn.shopify.com/s/files/1/0598/8302/8614/files/section-bg--compress.webp?v=1753442125");
     background-position: top center;
     background-size: contain;
     background-color: rgba(var(--color-crema-rgb), 0.4) !important;
@@ -146,6 +147,9 @@
         }
         @media (max-width: 767px) {
           height: 290px;
+        }
+        @media (max-width: 639px) {
+          height: 190px;
         }
       }
 
@@ -557,6 +561,9 @@
       // padding: 65px 90px;
       padding: 65px 0px;
       border-radius: 80px;
+      @media (max-width: 639px) {
+        padding: 55px 0px;
+      }
     }
     .product-media-object {
       .media__styled-element {
@@ -568,6 +575,9 @@
         width: 214px;
         height: 271px;
         object-fit: contain;
+        @media (max-width: 639px) {
+          height: 214px;
+        }
       }
     }
     .font-body {

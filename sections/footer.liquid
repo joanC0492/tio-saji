@@ -27,12 +27,22 @@
   endcase
 -%}
 
+{% comment %}
+  <img
+    class="footer-grass"
+    src="https://cdn.shopify.com/s/files/1/0598/8302/8614/files/footer-grass.svg?v=1752482665"
+    alt="Grass"
+    width="1920"
+    height="110"
+  >
+{% endcomment %}
 <img
-  class="footer-grass"
-  src="https://cdn.shopify.com/s/files/1/0598/8302/8614/files/footer-grass.svg?v=1752482665"
-  alt="Grass"
+  src="{{ 'pasto-animate-v2.gif' | asset_url }}"
+  loading="lazy"
+  alt="Logo"
   width="1920"
   height="110"
+  class="inline-block"
 >
 <footer
   class="footer-main relative bg-scheme-background px-section  text-scheme-text bg-scheme-gradient"
@@ -43,7 +53,13 @@
       <div class="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-theme">
         <div class="space-y-5 lg:col-span-4">
           <a class="" href="{{ routes.root_url }}">
-            <img src="{{ 'logo-footer-tio-saji-2x.webp' | asset_url }}" alt="Logo" width="306" height="100" class="inline-block">
+            <img
+              src="{{ 'logo-footer-tio-saji-2x.webp' | asset_url }}"
+              alt="Logo"
+              width="306"
+              height="100"
+              class="inline-block"
+            >
           </a>
           <ul class="-mx-2 -mt-2 flex flex-wrap justify-start lg:justify-start">
             <li class="mx-2 mt-2">
